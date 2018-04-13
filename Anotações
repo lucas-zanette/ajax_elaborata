@@ -1,3 +1,9 @@
+JAVASCRIPT 
+	* guia de referencia: w3schools, mdn-https://developer.mozilla.org/pt-BR/
+		moz - mozilla	webkit - chrome, safari, edge
+	* nome oficial é ECMASCRIPT e é ele quem padroniza o js com relação a padrão ISO.
+	* Hoje a atual versao é a 6 de 2015
+
 Editores
 
 	vscode
@@ -22,3 +28,10 @@ Montar Expressoes regulares
    \^\([0-9]+\)[0-9]{4}\-[0-9]{4}$/gm
 	
 	
+JQUERY
+	* exemplo: varios navegadores mostram o conteúdo com leve diferença entre eles
+	* jquery veio para prover a garantia de compatibilidade de browsers das implementações de js
+	
+	* Objeto externo normalmente colocamos na tag <HEAD>
+	* JQUERY simplifica algumas coisas do javascript
+	* qualidades: poderosa para manipular ajax e facilitar as implementações js
