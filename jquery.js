@@ -28,13 +28,13 @@ $(document).ready(
         );
 
         $("#btn-add").click(
-            function() {
+            function () {
                 var cor = $("nova-cor").val();
-                var opt = '<option value="'+ cor + '" >' + cor + '</option>';
+                var opt = '<option value="' + cor + '" >' + cor + '</option>';
 
                 $("#cores").append(opt);
 
-        });
-        
+            });
+
     }
 );
