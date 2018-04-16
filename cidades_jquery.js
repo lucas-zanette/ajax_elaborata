@@ -4,7 +4,7 @@ $(document).ready(function () {
 		var cidade = $('input').val();
 
 		var del = $('<span class="del">X</span>').click(function () {
-			$(this).parent()remove();
+			$(this).parent().remove();
 		}
 		);
 
