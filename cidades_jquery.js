@@ -1,4 +1,5 @@
 
+
 $(document).ready(function () {
 	$('button').click(function () {
 		var cidade = $('input').val();
