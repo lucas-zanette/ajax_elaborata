@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "Lucas",
+        "cep": "322322",
+        "email": "eu@eu.com",
+        "dataNasc": "10/10/2010"
+    },
+    {
+        "nome": "João",
+        "cep": "123456",
+        "email": "tu@tu.com",
+        "dataNasc": "10/10/1910"
+    }
+]

@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Clientes</title>
+
+    <meta http-equiv="Content-Type" content="text/html/charset=utf-8">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="clientes.js"></script>
+
+    <style>
+        fieldset {
+            width: 400px;
+        }
+        label {
+            width: 125px;
+            display: inline-block;
+        }
+        label:nth-of-type(2) {
+            color: red;
+        }
+        fieldset button {
+            float: right;
+        }
+        table {
+            width: 500px;
+            margin-top: 20px;            
+            border: 1px solid;
+            border-collapse: collapse
+        }
+        table td, th {
+            border: 1px solid;
+            padding: 4px;
+        }
+        table th {
+            background-color: darkblue;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Cadastro de clientes</h1>
+
+    <fieldset>
+        <legend>Dados do cliente</legend>
+
+        <label>Nome</label>
+        <input type="text" nome="nome" />
+        <br>
+
+        <label>Email</label>
+        <input type="text" nome="email" />
+        <br>
+
+        <label>CEP</label>
+        <input type="text" nome="cep" />
+        <br>
+        
+        <label>Data nascimento</label>
+        <input type="text" nome="data_nasc" />
+        <br>
+
+        <button>Adicionar</button>
+    </fieldset>
+
+    <button>Adicionar</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>CEP</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+
+</html>

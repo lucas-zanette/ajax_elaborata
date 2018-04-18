@@ -1,3 +1,6 @@
+https://api.jquery.com/
+
+
 JAVASCRIPT 
 	* guia de referencia: w3schools, mdn-https://developer.mozilla.org/pt-BR/
 		moz - mozilla	webkit - chrome, safari, edge
@@ -29,6 +32,7 @@ Montar Expressoes regulares
 	
 	
 JQUERY
+	*   $ é um apelido para jquery
 	* exemplo: varios navegadores mostram o conteúdo com leve diferença entre eles
 	* jquery veio para prover a garantia de compatibilidade de browsers das implementações de js
 	
@@ -38,3 +42,19 @@ JQUERY
 	
 	há 3 formas de 
 	
+* CSS Selector Reference o jquery tbm utiliza os mesmos seletores
+
+* JS é assincrono - pode enviar uma requisição que nao irá bloquear a próxima tarefa, ou linha.
+
+* element+element	div + p	Selects all <p> elements that are placed immediately after <div> elements
+
+	* jQuery.getJSON()- pegar dados
+	* XHR é uma chamada ajax
+	
+* para startar o php no localhost: php -S 0.0.0.0:8000 -t .
+
+* callback - conhecida como callback quando uma função é assincrona e espera algum retorno
+como no caso da chaamda de exemplo que fizemos no exercicio
+$.getJSON("lista_clientes.json");
+
+
